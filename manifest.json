@@ -1,0 +1,64 @@
+{
+  "keitou": [
+    {
+      "id": "shosha",
+      "label_ja": "商社マン",
+      "label_en": "SHOSHA",
+      "label_full_ja": "商社マン／グローバル大手",
+      "icon": "🌏",
+      "color": "#d63a2f",
+      "tagline": "世界を舞台に大きな仕事を動かす",
+      "character_image": "assets/characters/shosha.png",
+      "stats": { "academic": 4, "language": 5, "network": 5, "action": 4, "creativity": 2 },
+      "weapons": ["語学", "人脈", "GPA"]
+    },
+    {
+      "id": "startup",
+      "label_ja": "起業家",
+      "label_en": "STARTUP",
+      "label_full_ja": "起業家／スタートアップ",
+      "icon": "🚀",
+      "color": "#ffd60a",
+      "tagline": "自分でゼロから事業を作る",
+      "character_image": "assets/characters/startup.png",
+      "stats": { "academic": 2, "language": 3, "network": 5, "action": 5, "creativity": 5 },
+      "weapons": ["行動量", "人脈", "創造"]
+    },
+    {
+      "id": "scholar",
+      "label_ja": "研究者",
+      "label_en": "SCHOLAR",
+      "label_full_ja": "研究者／大学院・専門職",
+      "icon": "🔬",
+      "color": "#1d3557",
+      "tagline": "専門を極めて研究の道を行く",
+      "character_image": "assets/characters/scholar.png",
+      "stats": { "academic": 5, "language": 4, "network": 4, "action": 3, "creativity": 4 },
+      "weapons": ["GPA", "教授との関係", "継続力"]
+    },
+    {
+      "id": "creator",
+      "label_ja": "クリエイター",
+      "label_en": "CREATOR",
+      "label_full_ja": "クリエイター／表現者",
+      "icon": "🎨",
+      "color": "#6f8a5e",
+      "tagline": "自分の表現で世界に届ける",
+      "character_image": "assets/characters/creator.png",
+      "stats": { "academic": 2, "language": 3, "network": 4, "action": 4, "creativity": 5 },
+      "weapons": ["作品量", "継続発信", "コミュニティ"]
+    },
+    {
+      "id": "global",
+      "label_ja": "グローバル",
+      "label_en": "GLOBAL",
+      "label_full_ja": "グローバル／国際派",
+      "icon": "✈",
+      "color": "#161616",
+      "tagline": "国境を越えて働く・学ぶ",
+      "character_image": "assets/characters/global.png",
+      "stats": { "academic": 4, "language": 5, "network": 4, "action": 5, "creativity": 3 },
+      "weapons": ["語学", "海外経験", "行動量"]
+    }
+  ]
+}

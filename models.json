@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <path id="arcTop_toshiken" d="M 18 60 A 42 42 0 0 1 102 60" fill="none"/>
+    <path id="arcBot_toshiken" d="M 14 60 A 46 46 0 0 0 106 60" fill="none"/>
+  </defs>
+  <!-- 紙地 -->
+  <circle cx="60" cy="60" r="57" fill="#fbf6e9"/>
+  <!-- 版ズレ（アクセント色のオフセットリング） -->
+  <circle cx="61.5" cy="61.2" r="55" fill="none" stroke="#1d3557" stroke-width="4" opacity="0.5"/>
+  <!-- 外リング -->
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#161616" stroke-width="4.5"/>
+  <!-- 内点線リング -->
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#161616" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <!-- 上弧テキスト -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="10.5" letter-spacing="1.6" fill="#161616">
+    <textPath href="#arcTop_toshiken" startOffset="50%" text-anchor="middle">TOSHI LAB</textPath>
+  </text>
+  <!-- 下弧テキスト -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="7.5" letter-spacing="2" fill="#161616">
+    <textPath href="#arcBot_toshiken" startOffset="50%" text-anchor="middle">EST. 2012 ・ FIELDWORK</textPath>
+  </text>
+  <!-- 左右の星 -->
+  <text x="17" y="64" font-size="8" fill="#1d3557" font-family="Arial">★</text>
+  <text x="95" y="64" font-size="8" fill="#1d3557" font-family="Arial">★</text>
+  <!-- アイコン -->
+  
+  <g transform="translate(1.3,1)" opacity="0.4"><rect x="53" y="40" width="15" height="42" fill="#d63a2f"/></g>
+  
+  <rect x="36" y="52" width="13" height="30" fill="#1d3557" stroke="#161616" stroke-width="1.8"/>
+  <rect x="53" y="40" width="15" height="42" fill="#fbf6e9" stroke="#161616" stroke-width="1.8"/>
+  <rect x="72" y="58" width="12" height="24" fill="#1d3557" stroke="#161616" stroke-width="1.8"/>
+  <g fill="#ffd60a">
+    <rect x="39" y="56" width="3" height="3"/><rect x="44" y="56" width="3" height="3"/>
+    <rect x="39" y="63" width="3" height="3"/><rect x="44" y="63" width="3" height="3"/>
+    <rect x="75" y="62" width="3" height="3"/><rect x="75" y="69" width="3" height="3"/>
+  </g>
+  <g fill="#1d3557">
+    <rect x="56" y="45" width="3.4" height="3.4"/><rect x="62" y="45" width="3.4" height="3.4"/>
+    <rect x="56" y="52" width="3.4" height="3.4"/><rect x="62" y="52" width="3.4" height="3.4"/>
+    <rect x="56" y="59" width="3.4" height="3.4"/><rect x="62" y="59" width="3.4" height="3.4"/>
+  </g>
+  <line x1="30" y1="82" x2="90" y2="82" stroke="#161616" stroke-width="2.6"/>
+
+
+</svg>

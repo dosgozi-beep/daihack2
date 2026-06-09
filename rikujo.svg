@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <path id="arcTop_adken" d="M 18 60 A 42 42 0 0 1 102 60" fill="none"/>
+    <path id="arcBot_adken" d="M 14 60 A 46 46 0 0 0 106 60" fill="none"/>
+  </defs>
+  <!-- 紙地 -->
+  <circle cx="60" cy="60" r="57" fill="#fbf6e9"/>
+  <!-- 版ズレ（アクセント色のオフセットリング） -->
+  <circle cx="61.5" cy="61.2" r="55" fill="none" stroke="#d63a2f" stroke-width="4" opacity="0.5"/>
+  <!-- 外リング -->
+  <circle cx="60" cy="60" r="55" fill="none" stroke="#161616" stroke-width="4.5"/>
+  <!-- 内点線リング -->
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#161616" stroke-width="1.6" stroke-dasharray="4 3"/>
+  <!-- 上弧テキスト -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="10.5" letter-spacing="1.6" fill="#161616">
+    <textPath href="#arcTop_adken" startOffset="50%" text-anchor="middle">AD HOC</textPath>
+  </text>
+  <!-- 下弧テキスト -->
+  <text font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="7.5" letter-spacing="2" fill="#161616">
+    <textPath href="#arcBot_adken" startOffset="50%" text-anchor="middle">EST. 2008 ・ MAKE IT LOUD</textPath>
+  </text>
+  <!-- 左右の星 -->
+  <text x="17" y="64" font-size="8" fill="#d63a2f" font-family="Arial">★</text>
+  <text x="95" y="64" font-size="8" fill="#d63a2f" font-family="Arial">★</text>
+  <!-- アイコン -->
+  
+  <g transform="translate(1.5,1.1)" opacity="0.4"><polygon points="34,56 58,44 58,74 34,64" fill="#ffd60a"/></g>
+  
+  <polygon points="34,56 58,44 58,74 34,64" fill="#d63a2f" stroke="#161616" stroke-width="2.4" stroke-linejoin="round"/>
+  <rect x="58" y="50" width="8" height="19" fill="#161616"/>
+  <rect x="38" y="64" width="8" height="13" fill="#161616" transform="rotate(8 42 70)"/>
+  <g stroke="#161616" stroke-width="2.6" fill="none" stroke-linecap="round">
+    <path d="M 72 50 q 7 9 0 18"/>
+    <path d="M 80 44 q 12 15 0 30"/>
+  </g>
+  <g fill="#ffd60a" stroke="#161616" stroke-width="1.4">
+    <polygon points="88,36 90.5,42 96,44 90.5,46 88,52 85.5,46 80,44 85.5,42"/>
+  </g>
+
+
+</svg>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!--
+    daihack v2 app icon
+    Maskable design: critical content stays within the central 80% safe zone (centered 410x410 area).
+    Background fills full 512x512 for adaptive icon masks.
+  -->
+  <defs>
+    <pattern id="washi-dots" x="0" y="0" width="14" height="14" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#161616" fill-opacity="0.06"/>
+    </pattern>
+  </defs>
+
+  <!-- Background: washi cream -->
+  <rect width="512" height="512" fill="#f1e8d3"/>
+  <rect width="512" height="512" fill="url(#washi-dots)"/>
+
+  <!-- Bold black border frame, slightly inset to look intentional within mask -->
+  <rect x="36" y="36" width="440" height="440" fill="none" stroke="#161616" stroke-width="10"/>
+
+  <!-- Top label band -->
+  <rect x="76" y="100" width="360" height="46" fill="#161616"/>
+  <text x="256" y="133" font-family="'M PLUS Rounded 1c', sans-serif" font-weight="900" font-size="26" fill="#ffd60a" text-anchor="middle" letter-spacing="6">DAIHACK</text>
+
+  <!-- Main typography: ダイハック (M PLUS Rounded 1c in production; Noto Sans CJK JP fallback for icon rendering) -->
+  <text x="256" y="280" font-family="'M PLUS Rounded 1c', 'Noto Sans CJK JP', sans-serif" font-weight="900" font-size="92" fill="#161616" text-anchor="middle" letter-spacing="-4">ダイハック</text>
+
+  <!-- 3-node arrow symbol (senpai → self → kohai) -->
+  <g transform="translate(256, 360)">
+    <!-- node 1: blue (senpai) -->
+    <circle cx="-100" cy="0" r="22" fill="#1d3557" stroke="#161616" stroke-width="6"/>
+    <!-- arrow 1 -->
+    <line x1="-72" y1="0" x2="-32" y2="0" stroke="#161616" stroke-width="6" stroke-linecap="square"/>
+    <polygon points="-32,-9 -16,0 -32,9" fill="#161616"/>
+    <!-- node 2: yellow (self/now) -->
+    <circle cx="0" cy="0" r="26" fill="#ffd60a" stroke="#161616" stroke-width="6"/>
+    <!-- arrow 2 -->
+    <line x1="30" y1="0" x2="70" y2="0" stroke="#161616" stroke-width="6" stroke-linecap="square"/>
+    <polygon points="70,-9 86,0 70,9" fill="#161616"/>
+    <!-- node 3: vermilion (kohai) -->
+    <circle cx="102" cy="0" r="22" fill="#d63a2f" stroke="#161616" stroke-width="6"/>
+  </g>
+
+  <!-- Bottom tagline mini -->
+  <text x="256" y="438" font-family="'M PLUS Rounded 1c', 'Noto Sans CJK JP', sans-serif" font-weight="800" font-size="18" fill="#161616" text-anchor="middle" letter-spacing="1">先輩から学んで、後輩に渡す</text>
+
+</svg>
